@@ -5,7 +5,6 @@ import InfoBox from './InfoBox'
 import Map from './Map'
 import Table from './Table'
 import {sortData} from './util'
-import LineGraph from './LineGraph'
 
 
 function App() {
@@ -89,7 +88,6 @@ const onCountryChange = async (event) => {
         </div>
       
       <Card className="app__right">
-      <LineGraph />
         <CardContent>
           <h3>Live cases by country</h3>
           <Table countries = {tableData} />
